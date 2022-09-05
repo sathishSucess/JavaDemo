@@ -1,20 +1,20 @@
 package org.javademo;
 
 public class JavaDemo {
-	 public static void main(String[] args) {
+	public static void main(String[] args) {
 
-	        int number = 371, originalNumber, remainder, result = 0;
+		int number = 371, originalNumber, remainder, result = 0;
 
-	        originalNumber = number;
+		originalNumber = number;
 
-	        while (originalNumber != 0)
-	        {
-	            remainder = originalNumber % 10;
-	            result += Math.pow(remainder, 3);
-	            originalNumber /= 10;
-	        }
+		while (originalNumber != 0) {
+			remainder = originalNumber % 10;
+			result += Math.pow(remainder, 3);
+			originalNumber /= 10;
+		}
+		System.out.println(result);
+		System.out.println(number);
 
-	      
-	    }
+	}
 
 }
